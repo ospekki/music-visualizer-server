@@ -17,23 +17,23 @@ The Java server requires the following jar files to work:
 - rpi-ws281x-java-2.0.0-SNAPSHOT-sources.jar
 - rpi-ws281x-java-2.0.0-SNAPSHOT.jar
 
-log4j jar files are in the “music-visualizer-server\lib” folder. 
+log4j jar files are in the “lib” folder. 
 You must create rpi-ws281x jar files that are compatible with your Raspberry Pi by following the instructions below.
 
 You must have the following tools installed on your Raspberry Pi:
 
 - **swig**
 
-     sudo apt-get install swig
+	sudo apt-get install swig
 - **ar, ranlib**
 
-     sudo apt-get install binutils
+	sudo apt-get install binutils
 - **gcc**
 
-     sudo apt-get install gcc
+	sudo apt-get install gcc
 - **git**
 
-     sudo apt-get install git
+	sudo apt-get install git
      
 
 Open the terminal and clone the following repo to your Raspberry Pi:
@@ -97,7 +97,8 @@ Select all three rpi-ws281x jar files you created on your Raspberry Pi and selec
 You now have all the required jar files for the server
 
 
-## Building and starting the server
+
+## Building and running the server
 
 Right-click on the "MusicServerVisualizer" and select “Properties”.
 
