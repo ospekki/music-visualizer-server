@@ -22,13 +22,11 @@ You must create rpi-ws281x jar files that are compatible with your Raspberry Pi 
 
 You must have the following tools installed on your Raspberry Pi:
 
-**
-swig
+**swig
   sudo apt-get install swig
 ar, ranlib
   sudo apt-get install binutils
 gcc
   sudo apt-get install gcc
 git
-  sudo apt-get install git
-**
+  sudo apt-get install git**
