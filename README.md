@@ -6,6 +6,10 @@ is received from the client application running on the PC.
 
 NetBeans IDE is required for this project.
 
+The client application:
+
+https://github.com/ospekki/music-visualizer-client
+
 
 ## Creating and adding JAR files
 
