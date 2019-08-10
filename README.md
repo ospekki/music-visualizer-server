@@ -1,4 +1,4 @@
-# music-visualizer-server
+#  WS281X Music Visualizer Server
 
 This is a Java server application for Raspberry Pi. 
 The server controls WS281X led strip based on the data that
