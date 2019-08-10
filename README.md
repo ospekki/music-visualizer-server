@@ -119,3 +119,12 @@ Build files are created in the “music-visualizer-server\dist” folder. Move t
 Open the terminal and run the following command to start the server:
 
          sudo java -jar MusicVisualizerServer.jar
+
+
+## Wiring
+
+- Connect the data wire from the strip to the pin 12 (GPIO 18) on the Raspberry Pi.
+- Connect the positive wire from the strip to the external power supply.
+- Connect the negative wire from the strip to the pin 6 (GND) on the Raspberry Pi and to the external power supply.
+
+![alt text](https://drive.google.com/uc?export=download&id=1793l4Eo0S6mbcjvK6K3G7LOf6rSVdCns)
