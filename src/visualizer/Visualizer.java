@@ -226,6 +226,7 @@ public class Visualizer {
         }, 10);
     }
     
+    // Mixes two colors
     static Color blend(Color colorA, Color colorB, float a)
     {
         if (a > 255.0F) { a = 255.0F; }
@@ -242,7 +243,6 @@ public class Visualizer {
         return new Color(Math.round(r), Math.round(g), Math.round(b));
     }
     
-    // Mixes two colors
     public static Color colorFromHSV(double hue, double saturation, double value)
     {
         int hi = (int) (Math.round(Math.floor(hue / 60)) % 6);
