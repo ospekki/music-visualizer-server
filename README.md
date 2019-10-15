@@ -104,7 +104,7 @@ You now have all the required jar files for the server
 
 ## Building and running the server
 
-Right-click on the "MusicServerVisualizer" and select “Properties”.
+Right-click on the "MusicVisualizerServer" and select “Properties”.
 
 ![alt text](https://drive.google.com/uc?export=download&id=1smqB9KCs4QAle0_k_E6ooc8cpBdgDaIC)
 
