@@ -68,7 +68,7 @@ Comment all lines starting with “programInstalled” by adding “#” then sa
 
 Try running the following command again:
 
-     sudo nano src/scripts/createNativeLib.sh
+     sudo bash src/scripts/createNativeLib.sh
      
 ![alt text](https://drive.google.com/uc?export=download&id=1o7jjDjAXNz9k19OWOSOL-pIeI4R_ZGuV)
 
