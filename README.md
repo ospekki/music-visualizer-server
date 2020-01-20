@@ -62,7 +62,7 @@ If you have all the required tools installed (swig, gcc, ar, ranlib, git) and it
 
      sudo nano src/scripts/createNativeLib.sh
 
-Comment all lines starting with “programInstalled” by adding “#” then save.
+Comment all starting with “programInstalled” by adding “#” at the beginning of the lines then save.
 
 ![alt text](https://drive.google.com/uc?export=download&id=1Ux-ZvKMZc7QZKb5TrEv4hIP6nEBCSsxN)
 
@@ -123,6 +123,21 @@ Build files are created in the “music-visualizer-server\dist” folder. Move t
 Open the terminal and run the following command to start the server:
 
          sudo java -jar MusicVisualizerServer.jar
+
+
+## Disable Raspberry Pi audio output
+
+It is not possible to simultaneously play sounds and control the ledstrip, so the audio output must be disabled.
+
+Open the configuration file with text editor:
+
+         sudo nano /boot/config.txt
+	 
+Comment "dtparam=audio=on" by adding "#" at the beginning of the line then save.
+
+Reboot Raspberry Pi:
+
+         sudo reboot
 
 
 ## Wiring
