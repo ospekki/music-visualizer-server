@@ -13,7 +13,7 @@ https://github.com/ospekki/music-visualizer-client
 
 [![alt text](https://www.dropbox.com/s/f71dd5qi3kmyc3o/Raspberry_Pi_WS2812B_LED_strip_music_visualizer.gif?raw=1)](https://www.youtube.com/watch?v=hVwcQ8_BEE8)
 
-## Creating and adding JAR files to the project
+## Adding JAR files to the project
 
 The Java server requires the following jar files to work:
 
