@@ -10,7 +10,7 @@ The client application:
 
 https://github.com/ospekki/music-visualizer-client
 
-Uses rpi281x wrapper for Java by mbelling
+Uses rpi281x wrapper for Java created by mbelling
 
 https://github.com/rpi-ws281x/rpi-ws281x-java
 
