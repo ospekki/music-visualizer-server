@@ -86,7 +86,7 @@ Three jar files are now created in the /build/libs folder. Move these files to y
 
 Now start NetBeans on your PC and click “File”, “Open Project…” and open the “music-visualizer-server” project.
 
-![alt text](https://www.dropbox.com/s/9qr8r3cji7sbi8z/image010.png?dl=0)
+![alt text](https://www.dropbox.com/s/9qr8r3cji7sbi8z/image010.png?raw=1)
 
 ![alt text](https://www.dropbox.com/s/fbabm3fw27cwrg1/image011.png?raw=1)
 
