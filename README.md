@@ -11,7 +11,7 @@ The client application:
 https://github.com/ospekki/music-visualizer-client
 
 
-![alt text](https://www.dropbox.com/s/cta0nqf5pglrqsz/Raspberry_Pi_WS2812B_LED_strip_music_visualizer.gif?raw=1)
+![alt text](https://www.dropbox.com/s/f71dd5qi3kmyc3o/Raspberry_Pi_WS2812B_LED_strip_music_visualizer.gif?raw=1)
 
 ## Creating and adding JAR files
 
