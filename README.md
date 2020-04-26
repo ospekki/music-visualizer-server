@@ -26,7 +26,7 @@ The Java server requires the following jar files to work:
 log4j jar files are in the “lib” folder. 
 You must create rpi-ws281x jar files that are compatible with your Raspberry Pi by following the instructions below.
 
-You must have the following tools installed on your Raspberry Pi:
+Install the following tools on your Raspberry Pi:
 
 - **swig**
 
@@ -54,7 +54,7 @@ Change the directory:
 
 ![alt text](https://www.dropbox.com/s/yh4r8x71q5kg0yo/image003.png?raw=1)
 
-Next, run the following command:
+Run command:
 
      sudo bash src/scripts/createNativeLib.sh
 
