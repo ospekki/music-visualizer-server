@@ -44,7 +44,7 @@ Open the terminal and clone the following repo to your Raspberry Pi:
 
 	git clone https://github.com/rpi-ws281x/rpi-ws281x-java.git
      
-![alt text](https://drive.google.com/uc?export=download&id=1e8JB_qJu9P3f6j6e0YO65wK9I5IIFv7A)
+![alt text](https://www.dropbox.com/s/1cvw0s0ezvv9r37/image002.png?raw=1)
 
 Change the directory:
 
