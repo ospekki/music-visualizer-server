@@ -56,7 +56,7 @@ Next, run the following command:
 
      sudo bash src/scripts/createNativeLib.sh
 
-![alt text](https://www.dropbox.com/s/yh4r8x71q5kg0yo/image004.png?raw=1)
+![alt text](https://www.dropbox.com/s/sy0z6e35p7sf579/image004.png?raw=1)
 
 If you have all the required tools installed (swig, gcc, ar, ranlib, git) and it still says “cannot continue!”, open the createNativeLib.sh file with text editor:
 
@@ -64,39 +64,39 @@ If you have all the required tools installed (swig, gcc, ar, ranlib, git) and it
 
 Comment all starting with “programInstalled” by adding “#” at the beginning of the lines then save.
 
-![alt text](https://www.dropbox.com/s/yh4r8x71q5kg0yo/image005.png?raw=1)
+![alt text](https://www.dropbox.com/s/41wnx4rgessk9fj/image005.png?raw=1)
 
 Try running the following command again:
 
      sudo bash src/scripts/createNativeLib.sh
      
-![alt text](https://www.dropbox.com/s/yh4r8x71q5kg0yo/image006.png?raw=1)
+![alt text](https://www.dropbox.com/s/u3eiw15y3kzuq4q/image006.png?raw=1)
 
 Then run this command to compile the java code:
 
      sudo bash ./gradlew assemble -x signArchives
      
-![alt text](https://www.dropbox.com/s/yh4r8x71q5kg0yo/image007.png?raw=1)
+![alt text](https://www.dropbox.com/s/iyrda4q0y3itpeh/image007.png?raw=1)
 
 Three jar files are now created in the /build/libs folder. Move these files to your PC.
 
-![alt text](https://www.dropbox.com/s/yh4r8x71q5kg0yo/image008.png?raw=1)
+![alt text](https://www.dropbox.com/s/cmwdhdt1wwr0uwt/image008.png?raw=1)
 
-![alt text](https://www.dropbox.com/s/yh4r8x71q5kg0yo/image009.png?raw=1)
+![alt text](https://www.dropbox.com/s/8g20e5b26g86whk/image009.png?raw=1)
 
 Now start NetBeans on your PC and click “File”, “Open Project…” and open the “music-visualizer-server” project.
 
-![alt text](https://www.dropbox.com/s/yh4r8x71q5kg0yo/image010.png?raw=1)
+![alt text](https://www.dropbox.com/s/9qr8r3cji7sbi8z/image010.png?dl=0)
 
-![alt text](https://www.dropbox.com/s/yh4r8x71q5kg0yo/image011.png?raw=1)
+![alt text](https://www.dropbox.com/s/fbabm3fw27cwrg1/image011.png?raw=1)
 
 Right-click on the “Libraries” folder and select “Add JAR/Folder…”.
 
-![alt text](https://www.dropbox.com/s/yh4r8x71q5kg0yo/image012.png?raw=1)
+![alt text](https://www.dropbox.com/s/xslhzz5p1jprmk8/image012.png?raw=1)
 
 Select all three rpi-ws281x jar files you created on your Raspberry Pi and select the log4j jar files that are in the “music-visualizer-server\lib” folder.
 
-![alt text](https://www.dropbox.com/s/yh4r8x71q5kg0yo/image013.png?raw=1)
+![alt text](https://www.dropbox.com/s/2eug3i51qd9go5i/image013.png?raw=1)
 
 You now have all the required jar files for the server
 
@@ -106,19 +106,19 @@ You now have all the required jar files for the server
 
 Right-click on the "MusicVisualizerServer" and select “Properties”.
 
-![alt text](https://www.dropbox.com/s/yh4r8x71q5kg0yo/image015.png?raw=1)
+![alt text](https://www.dropbox.com/s/hmmh11qrff8gf7q/image015.png?raw=1)
 
 Click “Packaging” and check “Compress JAR file” and “Build JAR after compiling”. Click “OK” to accept changes.
 
-![alt text](https://www.dropbox.com/s/yh4r8x71q5kg0yo/image016.png?raw=1)
+![alt text](https://www.dropbox.com/s/gu382abc8f3giks/image016.png?raw=1)
 
 Right-click on the MusicVisualizerServer and select “Build”.
 
-![alt text](https://www.dropbox.com/s/yh4r8x71q5kg0yo/image017.png?raw=1)
+![alt text](https://www.dropbox.com/s/3u3aeyv415tgijf/image017.png?raw=1)
 
 Build files are created in the “music-visualizer-server\dist” folder. Move the jar file and the “lib” folder to your Raspberry Pi.
 
-![alt text](https://www.dropbox.com/s/yh4r8x71q5kg0yo/image018.png?raw=1)
+![alt text](https://www.dropbox.com/s/l8f8kq3ebehgypg/image018.png?raw=1)
 
 Open the terminal and run the following command to start the server:
 
@@ -146,4 +146,4 @@ Reboot Raspberry Pi:
 - Connect the positive wire from the strip to the external power supply.
 - Connect the negative wire from the strip to the pin 6 (GND) on the Raspberry Pi and to the external power supply.
 
-![alt text](https://www.dropbox.com/s/yh4r8x71q5kg0yo/image020.png?raw=1)
+![alt text](https://www.dropbox.com/s/akmz3f14w1robb5/image020.png?raw=1)
